@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Vígjáték</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/icon/icon1.png"/>
+</head>
+
+<?php
+  session_start();
+?>
+
+<body>
+
+<nav id="navigation">
+    <ul id="menu">
+        <li><a href="index.html">Főoldal</a></li>
+        <li><a href="scifi.html">Sci-fi</a></li>
+        <li><a id="menu-active" href="vigjatek.html">Vígjáték</a></li>
+        <li><a href="horror.html">Horror</a></li>
+        <li><a href="drama.html">Dráma</a></li>
+        <li><a href="forum.php">Fórum</a></li>
+        </ul>
+</nav>
+
+<header>
+    <img class="header_img" src="img/vigjatek/boratcover.jpg" alt="" />
+    <h1 class="oldal-cim">A 10 legjobb vígjáték film</h1>
+    <div class="kereso">
+        <label>Kereső: <input type="search" id="kereso" value="bármi"></label>
+    </div>
+
+</header>
+<div class="filmbox">
+    <ul class="item-container highlighted">
+        <li class="filmkep" data-pjax="0">
+            <img class="movie" src="img/vigjatek/eletrevalok.jpg" height="200" alt="">
+        </li>
+    </ul>
+</div>
+
+<div class="filmbox2">
+    <article class="movie">
+        <div class="row">
+            <span class="rank">10.</span>
+        </div>
+        <h2>
+            <a class="title">Életrevalók</a>
+        </h2>
+
+        <div class="movie-info">
+
+            <span class="summary">francia vígjáték, 107 perc, 2011</span>
+            <span class="director">Rendező: Olivier Nakache, Eric Toledano</span>
+            <p class="description">Az ejtőernyős baleset után tolószékbe kerülő gazdag arisztokrata, Philippe felfogadja otthoni segítőnek a külvárosi gettóból jött Drisst. Azt az embert, aki most szabadult a börtönből, és talán a legkevésbé alkalmas a feladatra. Két világ találkozik és ismeri meg egymást, és az őrült, vicces és meghatározó közös élmények nyomán kapcsolatukból meglepetésszerűen barátság lesz, amely szinte érinthetetlenné teszi őket a külvilág számára.
+                Az elmúlt évek egyik legnagyobb francia filmsikere megtörtént események alapján készült.</p>
+        </div>
+    </article>
+</div>
+
+<div class="filmbox">
+    <ul class="item-container highlighted">
+        <li class="filmkep" data-pjax="0">
+            <img class="movie" src="img/vigjatek/szerelemben.jpg" height="200" alt="">
+        </li>
+    </ul>
+</div>
+
+<div class="filmbox2">
+    <article class="movie">
+        <div class="row">
+            <span class="rank">9.</span>
+        </div>
+        <h2>
+            <a class="title">Szerelemben, bűntényben</a>
+        </h2>
+
+        <div class="movie-info">
+
+            <span class="summary">amerikai vígjáték, 86 perc, 2020</span>
+            <span class="director">Rendező: Michael Showalter </span>
+            <p class="description">Amikor a szakítás szélén álló pár véletlenül gyilkossági ügybe keveredik, versenysebességgel próbálják megtalálni a gyilkost és tisztázni a nevüket.</p>
+        </div>
+    </article>
+</div>
+
+<div class="filmbox">
+    <ul class="item-container highlighted">
+        <li class="filmkep" data-pjax="0">
+            <img class="movie" src="img/vigjatek/romlott.jpg" height="200" alt="">
+        </li>
+    </ul>
+</div>
+
+<div class="filmbox2">
+    <article class="movie">
+        <div class="row">
+            <span class="rank">8.</span>
+        </div>
+        <h2>
+            <a class="title">Romlott oktatás</a>
+        </h2>
+
+        <div class="movie-info">
+
+            <span class="summary">amerikai vígjáték, 103 perc, 2019</span>
+            <span class="director">Rendező: Cory Finley </span>
+            <p class="description">Frank Tassone köztiszteletben álló Long Island-i szuperintendens, aki asszisztensével, Pam Gluckinnal együtt a Roslyn Iskolai Körzet felvirágoztatásán dolgozik. Frank a pozitív üzenetküldés mestere, akit a polgárok és a diákok egyaránt kedvelnek. Ám egy diákújságíró néhány kiadási bizonylat láttán elhatározza, hogy alaposabban utánanéz néhány dolognak. Minél mélyebbre ás, annál sötétebb ügyekre bukkan. A film az amerikai történelem legnagyobb állami iskolai sikkasztási botrányát dolgozza fel.</p>
+        </div>
+    </article>
+</div>
+
+<div class="filmbox">
+    <ul class="item-container highlighted">
+        <li class="filmkep" data-pjax="0">
+            <img class="movie" src="img/vigjatek/topsecret.jpg" height="200" alt="">
+        </li>
+    </ul>
+</div>
+
+<div class="filmbox2">
+    <article class="movie">
+        <div class="row">
+            <span class="rank">7.</span>
+        </div>
+        <h2>
+            <a class="title">Top secret</a>
+        </h2>
+
+        <div class="movie-info">
+
+            <span class="summary">amerikai-angol vígjáték, 90 perc, 1984</span>
+            <span class="director">Rendező: Jim Abrahams, David Zucker, Jerry Zucker</span>
+            <p class="description">A szocialista világrendszer bomlása akkor kezdődött, amikor az amerikai rocksztárt vendégszereplésre hívták a vasfüggönyön túlra. Az Elvis nyomdokaiban botladozó Nick Rivers egyedülálló ajánlatot kap, az NDK-ba hívják koncertezni. Arra azonban nem számít, hogy egy piszkos politikai játék egyik bábúja lesz, és a vasfüggöny mögött világuralomra törő, vérgőzös nácikkal kerül szembe. De nem esik kétségbe, fölismerve a helyzetet, kiutat keres. Az elrabolt NSZK tudós kiszabadítására indul a szívszerelmével, a tudós lányával és a földalatti mozgalom képviselőjével.</p>
+        </div>
+    </article>
+</div>
+
+<div class="filmbox">
+    <ul class="item-container highlighted">
+        <li class="filmkep" data-pjax="0">
+            <img class="movie" src="img/vigjatek/40eves.jpg" height="200" alt="">
+        </li>
+    </ul>
+</div>
+
+<div class="filmbox2">
+    <article class="movie">
+        <div class="row">
+            <span class="rank">6.</span>
+        </div>
+        <h2>
+            <a class="title">40 éves szűz</a>
+        </h2>
+
+        <div class="movie-info">
+
+            <span class="summary">amerikai vígjáték, 116 perc, 2005</span>
+            <span class="director">Rendező: Judd Apatow</span>
+            <p class="description">Andy egy műszaki áruház raktárvezetője, helyes pasi, jó munkatárs. Elégedett az életével. A lakása tele van akciófigurákkal és képregényekkel, bicajjal jár, mert nincs kocsija, és esténként, amikor épp nem videojátékkal múlatja az időt, ólomkatonákat festeget. Egyik nap a munkatársai, David, Jay és Cal pókerezni hívják. Az éjszaka végén kiderül, hogy Andy nem egyszerűen csak agglegény, de negyven éves korára még sohasem volt nővel. A kollégák rögvest elhatározzák, hogy segítenek neki elveszteni azt, amit immár négy évtized óta őrizget, a szüzességét. Az elvált Trish személyében hamarosan jelölt is akad.</p>
+        </div>
+    </article>
+</div>
+
+<div class="filmbox">
+    <ul class="item-container highlighted">
+        <li class="filmkep" data-pjax="0">
+            <img class="movie" src="img/vigjatek/borat.jpg" height="200" alt="">
+        </li>
+    </ul>
+</div>
+
+<div class="filmbox2">
+    <article class="movie">
+        <div class="row">
+            <span class="rank">5.</span>
+        </div>
+        <h2>
+            <a class="title">Borat</a>
+        </h2>
+
+        <div class="movie-info">
+
+            <span class="summary">amerikai vígjáték, 84 perc, 2006</span>
+            <span class="director">Rendező: Larry Charles </span>
+            <p class="description">Borat, a kazah médiavilág sajátos alakja az ország Tájékoztatási Minisztériumának megbízásából dokumentumfilmet forgat Amerikában. Beutazza a földrésznyi országot, hétköznapi emberekkel találkozik, és helyi nevezetességekkel ismerkedik. Hogy a faji, vallási és szexuális identitásra vonatkozó kérdéseivel megbotránkoztatja, zavarba hozza és halálra rémíti Amerikát, az csöppet sem érdekli. A több mint különös riporter a filmforgatás mellett mindenáron találkozni akar Pamela Andersonnal.</p>
+        </div>
+    </article>
+</div>
+
+<div class="filmbox">
+    <ul class="item-container highlighted">
+        <li class="filmkep" data-pjax="0">
+            <img class="movie" src="img/vigjatek/masnaposok.jpg" height="200" alt="">
+        </li>
+    </ul>
+</div>
+
+<div class="filmbox2">
+    <article class="movie">
+        <div class="row">
+            <span class="rank">4.</span>
+        </div>
+        <h2>
+            <a class="title">Másnaposok</a>
+        </h2>
+
+        <div class="movie-info">
+
+            <span class="summary">amerikai vígjáték, 100 perc, 2009</span>
+            <span class="director">Rendező: Todd Phillips</span>
+            <p class="description">Házasodni többször is lehet, de legénybúcsú csak egyszer van az ember életében. Phil (Bradley Cooper) a haverjai segítségével meg is szervezik a fergeteges bulit, ami túlságosan is jól sikerül. Másnap reggel megdöbbenve ébrednek, a leendő férj nyomtalanul eltűnt, a szálloda szobája pedig teljesen le van rombolva. Az előző napi dorbézolásról mindössze néhány nyom maradt: egy tigris a fürdőszobában, egy csecsemő a cipős fiókban és Mike Tyson a nappaliban.</p>
+        </div>
+    </article>
+</div>
+
+<div class="filmbox">
+    <ul class="item-container highlighted">
+        <li class="filmkep" data-pjax="0">
+            <img class="movie" src="img/vigjatek/amerikaba.jpg" height="200" alt="">
+        </li>
+    </ul>
+</div>
+
+<div class="filmbox2">
+    <article class="movie">
+        <div class="row">
+            <span id="rank3" class="rank">3.</span>
+        </div>
+        <h2>
+            <a class="title">Amerikába jöttem</a>
+        </h2>
+
+        <div class="movie-info">
+
+            <span class="summary">amerikai vígjáték, 112 perc, 1988</span>
+            <span class="director">Rendező: John Landis</span>
+            <p class="description">Akeem herceg (Eddie Murphy), a kis afrikai ország uralkodójelöltje dúsgazdag ember. Mindene megvan amit csak akarhat, ám úgy érzi üres az élete, mert nincs olyan nő, akibe bele tudna szeretni. A hercegnek pedig feleség kell, méghozzá olyan, aki sem nem a pénzéért, sem nem a hatalmáért megy hozzá. Ezért utazik hűséges barátjával, Semmivel Amerikába, ahol egy gyorsbüfében helyezkednek el takarítónak. A bajok akkor kezdődnek amikor kiderül, hogy a két férfi még soha életében nem látott felmosóvödröt és rongyot.</p>
+        </div>
+    </article>
+</div>
+
+<div class="filmbox">
+    <ul class="item-container highlighted">
+        <li class="filmkep" data-pjax="0">
+            <img class="movie" src="img/vigjatek/csupasz.jpg" height="200" alt="">
+        </li>
+    </ul>
+</div>
+
+<div class="filmbox2">
+    <article class="movie">
+        <div class="row">
+            <span id="rank2" class="rank">2.</span>
+        </div>
+        <h2>
+            <a class="title">Csupasz pisztoly</a>
+        </h2>
+
+        <div class="movie-info">
+
+            <span class="summary">amerikai vígjáték, 81 perc, 1988</span>
+            <span class="director">Rendező: David Zucker</span>
+            <p class="description">Az őrületes humorú Airplane, Top Secret és Nagy durranás alkotói ezúttal a "Nagyon Különleges Ügyosztály" aktái között bukkantak a kincsek kincsére! A főhős természetesen ismét Frank Drebin, a gránit állkapcsú, sziklakemény zsaru, a magasztos értékek utolsó megvesztegethetetlen védelmezője. Miközben vadul igyekszik megakadályozni az angol királynő ellen kifundált merényletet, ádáz bűnözőkkel és kéjsóvár asszonyokkal kell összemérnie a fegyverét. Az ügynek még részese egy szitává lőtt, de amúgy jó színben levő ügynök, egy szőke szexbomba, két baseballcsapat és megszámlálhatatlan fura figura. Igazi ellenfele azonban csak kettő akad: két balkeze, melyek képtelennél képtelenebb helyzetekbe sodorják.</p>
+        </div>
+    </article>
+</div>
+
+<div class="filmbox">
+    <ul class="item-container highlighted">
+        <li class="filmkep" data-pjax="0">
+            <img class="movie" src="img/vigjatek/brianelete.jpg" height="200" alt="">
+        </li>
+    </ul>
+</div>
+
+<div class="filmbox2">
+    <article class="movie">
+        <div class="row">
+            <span id="rank1" class="rank">1.</span>
+        </div>
+        <h2>
+            <a class="title">Brian élete</a>
+        </h2>
+
+        <div class="movie-info">
+            <span class="summary">angol vígjáték, 90 perc, 1979</span>
+            <span class="director">Rendező: Terry Jones</span>
+            <p class="description">A Monthy Python csoport tagjai ezúttal visszavisznek minket a bibliai időkbe. Júdeában vagyunk, ott és akkor, amikor Jézus született. Vele szinte egy időben és egészen a közelében megszületik egy másik gyermek is, Brian. Róla a napkeleti bölcsek tévedésből azt hiszik, hogy ő a megváltó. Brian élete ettől a perctől kezdve tévedések és félreértések sorozata. Júdea ekkoriban forrong: zsidók harcolnak a szabadságért, a rómaiak és egymás ellen is.</p>
+            <blockquote>Szerinted az vicces vagy nem, amikor kimondom, hogy Fikusz Kukisz? <br>Van egy felesége is, Tudjátok, hogy hívják? Úgy hívják, Fortisszima. Fortisszima Fingusz!</blockquote>
+        </div>
+    </article>
+</div>
+
+</body>
+</html>

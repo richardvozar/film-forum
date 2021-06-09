@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="utf-8">
+    <title>Webtervezés 2020 - I. mérföldkő</title>
+    <style>
+      body {
+        font-family: "Segoe UI",Arial,sans-serif;
+        background-color: #fcfcfc;
+        font-size:16px;
+        padding-bottom:50px;
+      }
+      table,td,th {
+        border-collapse: collapse;
+      }
+      th,td {
+        border: 1px solid #000000;
+        padding:5px;
+      }
+      table {
+        margin:10px;
+      }
+      td:first-child {
+        /*font-weight:bold;*/
+        vertical-align: top;
+      }
+      .stfill {
+        font-weight:bold;
+        color:#DD4132;
+      }
+      .sum {
+        border-top:2px solid #000000;
+      }
+      .sum td {
+        font-weight:bold;
+      }
+      .task {
+        /*font-weight:bold;*/
+      }
+      .subtask {
+        padding-left:25px;
+      }
+      .note {
+        font-size:12px;
+        display:block;
+      }
+      tr.sum>td:nth-child(2),
+      td:nth-child(3),
+      td:nth-child(4) {
+        text-align: center;
+      }
+      tr.header {
+        border-bottom: 2px solid #000000;
+      }
+      .example {
+        font-style: italic;
+        color:grey;
+      }
+      .kotelezo{ 
+		  color:red; 
+		  font-weight: bold; 
+	   }
+
+     table tr td:nth-child(4), table tr td:nth-child(5),table tr th:nth-child(4), table tr th:nth-child(5){
+        visibility: hidden;
+     }
+    </style>
+  </head>
+  <body>
+    <h1>Web tervezés gyakorlat 2020/2021 II. félév <br />
+        2 fős projekt követelmények</h1>
+    <div>
+    <h2>A projekt készítésének szervezése</h2>
+      <ul>
+        <li> A csapatban résztvevő hallgatók 
+        az alábbi szempontok szerint munkatervet 
+        készítenek, melyet az I. mérföldkőre vonatkozóan a 4. hét végéig feltöltenek a CooSpace-be egy Excel táblázatban. A II. mérföldkőre vonatkozó munkaterv feltöltési határidejét a II. mérföldkő projekt követelményei fogják tartalmazni.</li>
+        <li> A munkatervnek a következőket kell tartalmaznia:
+          <ul>
+            <li> az összes megvalósítani szándékozott 
+              projekt követelményt, mindegyiknél megjelölve, 
+              hogy ki lesz annak megvalósítója; a csapattársak 
+              között a projekt első és második részének 
+              kötelező követelményeit külön-külön egyenlő 
+              pontszámban kell elosztani; </li>
+        <li> minden követelménynek a megvalósítási 
+              határidejét; a projekt egyes részeiben a 
+              kötelező követelmények határidejének 
+              meg kell előznie a választható követelmények 
+              határidejét; </li>			  
+          </ul>        
+        </li> 
+        <li> A munkaterv semmilyen szempontból 
+            nem kerülhet ellentmondásba a gyakorlat 
+            és a projekt követelményeivel. </li>
+        <li> A munkatervben a határidőket annak 
+            megfelelően kell megtervezni, hogy <strong>
+			<span style="text-decoration: underline;">az adott hallgató számára az általa vállalt</span> kötelező részek munkatervnek megfelelő 
+            időben történő elkészítésének elmulasztása 
+            (alapos indok hiányában) a projekt, és ezzel 
+            együtt a gyakorlat nem teljesítését eredményezi.
+            </strong>
+            Ebben az esetben a munkaterv és a munkanapló
+            alapján a gyakorlatvezetők döntenek arról, 
+            hogy az egyedül maradt hallgató társítható-e 
+            másik egyfős projektet megvalósító hallgatóval, 
+            vagy a hallgatónak az egy fős projekt követelményeit 
+            kell teljesítenie a gyakorlatvezetők által meghatározott 
+            esetleges módosításokkal. Minden más esetben a csapat 
+            teljesítménye a két fős projekt elvárásainak megfelelően lesz értékelve, 
+            és a kötelező követelményeknek a beadási határidőnek
+            megfelelően történő megvalósításának hiányában együtt 
+            bukják a projektet. Ajánlott a munkatervben a kötelező 
+            részek megvalósítását viszonylag korábbi időpontra 
+            előírni, és a csapattárs mulasztása esetén a 
+            gyakorlatvezetőt azonnal értesíteni, különben a 
+            hallgatónak nem lesz elegendő ideje a módosított 
+            követelmények határidőre történő megvalósítására.
+        </li>
+        <li> Nagyon ajánlott a projekttel kapcsolatban heti 
+            megbeszéléseket tartani. A projektben résztvevő 
+            hallgatók megfelelő együttműködésére projektenként 
+            10 pont jár, amit dokumentálni kell heti munkanapló 
+            rendszeres kitöltésével, és <strong> ami a projektben 
+            kötelezően teljesítendő hallgatónkénti 45 pontba nem 
+            számít bele</strong>.  A heti munkanapló 
+            tartalmazza az adott időpontig a csapattagok által
+            megvalósított követelményeket, esetleges problémákat, 
+            a következő hétre vagy hetekre vonatkozó tervet, 
+            illetve a csapattagok közötti megállapodásokat.
+            A munkanapló beadása két módon történhet:
+             egy Google táblázatban megosztva 
+            (a megosztható linken keresztül 
+            szerkesztői hozzáférést kell adni) 
+            vagy hetente CooSpace-re feltöltve 
+            Excel táblázatban. A Google táblázat esetén fontos, 
+            hogy a kitöltésekor a hallgató legyen bejelentkezve 
+            a Google fiókjába.
+        </li> 
+        <li> Amennyiben a csapattárs eltűnik, vagy a kötelező 
+            feladatok megvalósításában nem dolgozik a 
+            munkatervnek megfelelően, vagy más módon 
+            veszélyezteti a teljes projekt elfogadását, a 
+            gyakorlatvezetőket maradéktalanul értesíteni kell, 
+            akik a további teendőkről a munkanapló 
+            figyelembevételével fognak dönteni.
+        </li>
+        <li> <strong> Aki a gyakorlatvezetők megkeresésére 
+            egy héten belül nem válaszol (és nem tudja igazolni, 
+            hogy önhibáján kívül akadályoztatva volt), vagy nem 
+            hajlandó együttműködni, illetve a kötelező feladatokat 
+            a munkatervnek megfelelően elvégezni, a projektet, és 
+            ezzel együtt a gyakorlatot nem teljesíti. </strong>
+        </li>
+		<li>
+			A csapatok szabadon választhatnak témát, amely egységesíti a megvalósítást.
+			Minden megvalósított oldal logikailag relevánsan kapcsolódjon a választott témához.
+		</li>
+		<li>
+			A munkatervhez/munkanaplóhoz elérhető minta fájl: <a href="https://drive.google.com/file/d/1rw4_KUUHh8_tlU_2TPM9bC_Ko3iGKTjN/view?usp=sharing" target=_blank> Google Sheet </a>
+		</li>
+      </ul>
+    </div>
+    <h2> I. mérföldkő követelmények</h2>
+    <div>
+      <h3>Általános elvárások</h3>
+      <ul>
+        <li>
+          A projekt során nem használható fel olyan ismeretanyag, amely a kurzus tananyagát nem képzi. (pl.: adatbázis, css framework, front-end, back-end keretrendszer, javascript).<br />
+          Ezen szabály megszegése esetén a projektben résztvevő hallgatónként a következő képlet alapján mínuszpont jár: -6p+(hallgatói ismételt beadás napja - oktatói értékelés napja-1)*(-3). <br />
+          Azaz a projekt pontból személyenként -6 pont levonásra kerül.
+          Ezen felül, miután a gyakorlatvezető jelzi a hallgatónak, hogy a projektet nem fogadja el (ez az oktatói értékelés napja) minden megkezdett nap (hallgatói ismételt beadás napja - oktatói értékelés napja-1) további -3 pont levonsára kerül,
+          azaz úgy vesszük, hogy a hallgató nem készítette el határidőre a projektet.
+          <br /> A fenti pontlevonások fejenként értendők.
+        </li>
+        <li>Az I. mérföldkőben hallgatónként legfeljebb 45 pont érhető el, amiből
+          legalább 22 pontot teljesíteni kell.</li>
+        <li>A mérföldkő elfogadásához 5 db html oldalt kell elkészíteni.
+            A projekt célja a HTML, CSS ismeretek bemutatása, ezért nem tartalmazhat program által generált elemeket.</li>
+        <li>Az elkészített vagy felhasznált fájlokat mappába szervezve kell feltölteni (pl.: css fájlok css mappában; képek img mappában stb.)</li>
+        <li>Az elkészített feladatot egy zip fájlban kell feltölteni CooSpace-re a követelményekben megfogalmazott határidőig.</li>
+        <li>Tetszőleges mappában történő kicsomagolás után a HTML fájlok böngészőben történő megnyitásával a használt útvonalaknak (css,kép) helyesnek kell lenniük.</li>
+        <li>A fenti elvárások a pontozásban "Formai követelmények" néven szerepelnek.</li>
+        <li>Csak működő, látható és értelmes formázások érnek pontot. Például nem ér pontot: fehér háttéren fehér szöveg, CSS animáció ami nem jelenik meg a weboldalon, a rossz útvonalak miatt nem működő/látható tartalom.</li>
+        <li>Az <span class="kotelezo">
+             1, 2, 3, 3.1, 3.2, 3.3., 4.1, 4.2, 4.3, 4.5, 5.1, 5.2, 5.3 </span>
+             számozású követelmények teljesítése az elégséges érdemjegy megszerzéséhez kötelező, a projekt más részeivel ki nem váltható!</li>
+        <li>A 4.4, 5.4., 5.5, és 5.6-os követelményeknél fel kell 
+        sorolni a megvalósított elemeket. </li>
+		<li>A projekttel együtt feltöltendő egy Excel fájl, mely minden csapattagra külön tartalmazza az általa megvalósított követelményeket,
+		a megvalósítást tartalmazó fájl nevét és abban a megvalósító kód sorszámát. Minden követelményt linkké kell alakítani, mely arra az oldalra navigál,
+		ahol a megvalósítás eredménye látható. Ennek elkészítéséhez kiindulásként használható a kiadott 
+		<a href="https://drive.google.com/file/d/1rw4_KUUHh8_tlU_2TPM9bC_Ko3iGKTjN/view?usp=sharing" target=_blank> Google Sheet </a> táblázat.</li>
+      </ul>
+    </div>
+    <div style="display: none;">
+      <h3>1. hallgató adatai</h3>
+      <ul>
+        <li>Név: <span class="stfill">[Hallgató tölti ki...]</span></li>
+        <li>Neptun-kód: <span class="stfill">[Hallgató tölti ki...]</span></li>
+        <li>Szak, évfolyam: <span class="stfill">[Hallgató tölti ki...]</span></li>
+        <li>E-mail cím: <span class="stfill">[Hallgató tölti ki...]</span></li>
+        <li>Használt szabvány: <span class="stfill">[Hallgató tölti ki...]</span> (XHTML 1.0 Strict vagy HTML5)</li>
+      </ul>
+    </div>
+	<div style="display: none;">
+      <h3>2. hallgató adatai</h3>
+      <ul>
+        <li>Név: <span class="stfill">[Hallgató tölti ki...]</span></li>
+        <li>Neptun-kód: <span class="stfill">[Hallgató tölti ki...]</span></li>
+        <li>Szak, évfolyam: <span class="stfill">[Hallgató tölti ki...]</span></li>
+        <li>E-mail cím: <span class="stfill">[Hallgató tölti ki...]</span></li>
+        <li>Használt szabvány: <span class="stfill">[Hallgató tölti ki...]</span> (XHTML 1.0 Strict vagy HTML5)</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Pontozás</h3>
+      <table>
+
+        <tr class="header">
+          <th>            
+          </th>
+          <th>
+            Részfeladat
+          </th>
+          <th>
+            Szerezhető pontszám
+          </th>
+          <th>
+            Szerzett pontszám <br />
+            (oktató tölti ki)
+          </th>
+          <th>
+            Megvalósító hallgató <br />
+            (hallgató tölti ki)
+          </th>
+        </tr>
+        <tr class="kotelezo">
+          <td>1</td>
+          <td>
+            Formai követelmények
+          </td>
+          <td>2</td><td></td><td></td>
+        </tr>
+        <tr class="kotelezo">
+          <td>2</td>
+          <td class="task">
+            Szabványos HTML oldalak
+            <span class="note">A minimálisan kötelező 5 oldalnak szabványosnak kell lennie.</span>
+          </td>
+          <td>10</td><td></td><td></td>
+        </tr>
+        <tr class="kotelezo">
+          <td>3</td>
+          <td class="task" colspan="2">
+            Menü megvalósítás
+          </td>          
+        </tr>
+        <tr class="kotelezo">
+          <td>3.1</td>
+          <td class="subtask">
+            <a>Linkek használata</a>
+          </td>
+          <td>1</td><td></td><td></td>
+        </tr>
+        <tr class="kotelezo">
+          <td>3.2</td>
+          <td class="subtask">
+            <a href="drama.php">Lista használata</a>
+          </td>
+          <td>1</td><td></td><td></td>
+        </tr>
+        <tr class="kotelezo">
+          <td>3.3</td>
+          <td class="subtask">
+            <a>CSS formázás</a>
+            <span class="note">- Az aktuális menüpont eltérő.</span>
+            <span class="note">- Az egér rávitelével a kinézet módosul.</span>
+          </td>
+          <td>4</td><td></td><td></td>
+        </tr>
+        <tr class="kotelezo">
+          <td>4</td>
+          <td class="task" colspan="2">
+            A weboldal struktúrája
+          </td>
+        </tr>
+        <tr class="kotelezo">
+          <td>4.1</td>
+          <td class="subtask">
+            <a href="index.html">Div illetve HTML5 elemekkel van kialakítva</a>
+            <span class="note">Fejléc, lábléc, törzs, oldalsáv, menü.</span>
+            <span class="note">HTML5 esetén HTML5 elemek.</span>
+          </td>
+          <td>3</td><td></td><td></td>
+        </tr>
+        <tr class="kotelezo">
+          <td>4.2</td>
+          <td class="subtask">
+            <a href="index.html">Táblázat elemek szabályos használata</a>
+            <span class="note">Fejlécekhez való társítással (headers).</span>
+          </td>
+          <td>4</td><td></td><td></td>
+        </tr>
+        <tr class="kotelezo">
+          <td>4.3</td>
+          <td class="subtask">
+            <a href="forum.php">Űrlap kialakítása, űrlapelemek használata</a>
+            <span class="note">Elküldés és alapállapot gombok. </span>
+            <span class="note">Legalább 6 féle beviteli mező, 
+            label elemekkel.</span>
+          </td>
+          <td>7</td><td></td><td></td>
+        </tr>
+        <tr>
+          <td>4.4</td>
+          <td class="subtask">
+            <a href="forum.php">További űrlapelemek használata</a>
+            <span class="note">
+			Beviteli mezők label elemekkel,
+            rejtett mező, mezőcsoportosítás,</span>
+            <span class="note">
+			darabonként 1p.</span>
+          </td>
+          <td>10</td><td></td><td></td>
+        </tr>
+        <tr class="kotelezo">
+          <td>4.5</td>
+          <td class="subtask">
+            <a href="drama.php">Kép elem használata</a>
+          </td>
+          <td>1</td><td></td><td></td>
+        </tr>
+        <tr class="kotelezo">
+          <td>5</td>
+          <td class="task" colspan="2">
+            CSS
+          </td>
+        </tr>
+        <tr class="kotelezo">
+          <td>5.1</td>
+          <td class="subtask">
+            <a>Elemkijelölő, azonosítókijelölő, <br>osztálykijelölő, összetett kijelölők használata</a>
+          </td>
+          <td>4</td><td></td><td></td>
+        </tr>
+        <tr class="kotelezo">
+          <td>5.2</td>
+          <td class="subtask">
+            <a>Nyomtatási stíluslap</a>
+            <span class="note">
+			Elegendő elkészíteni a HTML oldalak 
+            egyikéhez <br>
+            az órán tanultaknak megfelelően.</span>
+          </td>
+          <td>2</td><td></td><td></td>
+        </tr>
+        <tr class="kotelezo">
+          <td>5.3</td>
+          <td class="subtask">
+            Alapvető strukturális elemek céljuknak
+            megfelelően használva
+            <span class="note"><a href="drama.php">- címsor: 1 pont</a></span>
+            <span class="note"><a href="drama.php">- p tag: 1 pont</a></span>
+            <span class="note"><a href="index.html">- iframe: 1 pont</a></span>
+            <span class="note">- kiemelések: <a href="drama.php">em, </a><a href="forum.php">strong: 1-1 pont</a></span>
+          </td>
+          <td>5</td><td></td><td></td>
+        </tr>
+        <tr>
+          <td>5.4</td>
+          <td class="subtask">
+            További strukturális elemek céljuknak
+            megfelelően használva
+            <span class="note"><a href="scifi.php">- kliensoldali térkép: 2 pont</a></span>
+            <span class="note"><a href="drama.php">- hang- vagy videóállomány: 1-2 pont</a></span>
+            <span class="note"><a href="drama.php">- article: 1 pont</a></span>
+            <span class="note"><a href="index.html">- section: 1 pont</a></span>
+            <span class="note"><a href="scifi.php">- figure: 1 pont</a></span>
+            <span class="note">- <a href="">wbr</a>, <a href="scifi.php">pre</a>, <a href="drama.php">cite</a>, <a href="vigjatek.php">blockquote</a>,
+              <a href="scifi.php">q</a> tagok: mindegyik 1-1 pont</span>
+            <span class="note">- kiemelések: <a href="index.html">b</a>, <a href="forum.php">mark</a>,
+            <a href="index.html">u</a>, <a href="forum.php">i</a>: mindegyik 1-1 pont</span>
+            <span class="note">- stb. (a hallgató tölti ki)</span>            			
+          </td>
+          <td>11</td><td></td><td></td>
+        </tr>
+        <tr>
+          <td>5.5</td>
+          <td class="subtask">
+            A weboldal struktúra elemeinek testreszabása
+            <span class="note"><a href="drama.php">Formázás, pozícionálás, méretezés, úsztatás</a></span>
+            <span class="note"><a href="">Példák:</a></span>
+            <span class="note"><a href="forum.php">- körvonal: 2 pont</a></span>
+            <span class="note"><a href="drama.php">- túlcsordulás szabályozása: 1 pont</a></span>
+            <span class="note"><a href="drama.php">- háttérszín vagy háttérkép: 1 pont</a></span>
+            <span class="note"><a href="drama.php">- háttér rögzítése: 1 pont</a></span>
+            <span class="note">- szegélykép beállítása: 1 pont</span>
+            <span class="note"><a href="drama.php">- kijelölés kapcsolat alapján: 1 pont</a></span>
+            <span class="note"><a href="forum.php">- kijelölés tulajdonság alapján: 1 pont</a></span>
+            <span class="note"><a href="index.html">- táblázatos megjelenítés táblázat nélkül: 1 pont</a></span>
+            <span class="note">- szövegek formázása és igazítása:
+             <a href="forum.php">letter-spacing</a>, <a href="forum.php">line-height</a>, white-space, <a
+                      href="drama.php">text-align</a>:
+             mindegyik 1-1 pont</span>
+            <span class="note"><a href="index.html">- betűméret, dőlt betűk,</a>
+            betűvastagság: 1 pont</span>
+            <span class="note"><a href="forum.php">- text-decoration, text-shadow</a>: 1 pont</span>
+            <span class="note"><a href="drama.php">- fix fejléc</a>: 1 pont</span>
+            <span class="note"><a href="index.html">- többoszlopos elrendezés</a>: 2 pont</span>
+            <span class="note" style="display: none;"><a href="index.html"> lebegő doboz</a>: 2 pont</span>
+            <span class="note"><a href="forum.php">- z-index használata: 1 pont</a></span>
+            <span class="note"><a href="drama.php">- méretezés: 2 pon</a>t</span>
+            <span class="note">- stb. (a hallgató tölti ki) </span>            			
+          </td>
+          <td>17</td><td></td><td></td>
+        </tr>
+        <tr>
+          <td>5.6</td>
+          <td class="subtask">
+            Dizájn
+            <span class="note">A korábbi részfeladatok teljesítéséhez használt szabályokon felül.</span>
+            <span class="note">Szabadon használható:</span>
+            <span class="note">- pozícionálás: <a href="forum.php">absolute, fixed</a>, <a href="index.html">relative</a>,  <a href="index.html">static</a> típusonként 2 pont</span>
+            <span class="note">- <a href="index.html">úsztatás</a>: 2 pont</span>
+            <span class="note">- <a href="index.html">pseudo elemek</a>: 2 pont</span>
+            <span class="note">- <a href="index.html">lekerekített sarkok</a>: 2 pont</span>
+            <span class="note">- <a href="forum.php">árnyékok</a>: 2 pont</span>
+            <span class="note">- áttűnés: 2 pont</span>
+            <span class="note">- transzformálás: <a href="forum.php">eltolás</a>, <a href="horror.php">forgatás</a>, <a href="forum.php">skálázás</a>, nyírás típusonként 2 pont</span>
+            <span class="note">-<a href="horror.php">animáció</a>: 4 pont</span>
+            <span class="note">- <a href="index.html">media query</a>: 2 pont</span>
+            <span class="note">- stb. (a hallgató tölti ki) </span>
+          </td>
+          <td>14</td><td></td><td></td>
+        </tr>
+        <tr class="sum">
+          <td colspan="2">Összpontszám:</td>
+          <td>85</td>
+          <!--<td></td>
+          <td></td>-->
+        </tr>
+      </table>
+    </div>
+    <div style="display: none;">
+      <h3>Megjegyzés</h3>
+      <p>A hallgató opcionális megjegyzése a beadott feladathoz.</p>
+      <p class="stfill">
+         [Hallgató tölti ki...]
+      </p>
+    </div>
+    <p> Közzétéve: 2020. 03. 03.</p>
+  </body>
+</html>

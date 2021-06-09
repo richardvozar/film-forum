@@ -1,0 +1,6 @@
+a:5:{s:8:"username";s:8:"elsoFiok";s:6:"passwd";s:8:"asdfasdf";s:3:"nem";s:1:"m";s:5:"email";s:14:"teszt@email.hu";s:4:"date";s:10:"2021-04-08";}
+a:5:{s:8:"username";s:4:"svab";s:6:"passwd";s:5:"12345";s:3:"nem";s:1:"m";s:5:"email";s:16:"ezmukszik@lol.hu";s:4:"date";s:0:"";}
+a:5:{s:8:"username";s:6:"teszt2";s:6:"passwd";s:5:"asdfg";s:3:"nem";s:1:"f";s:5:"email";s:14:"teszt@email.hu";s:4:"date";s:0:"";}
+a:5:{s:8:"username";s:8:"teszerfn";s:6:"passwd";s:5:"11111";s:3:"nem";s:1:"f";s:5:"email";s:15:"proba2@email.hu";s:4:"date";s:0:"";}
+a:5:{s:8:"username";s:5:"kRnnn";s:6:"passwd";s:6:"Asd123";s:3:"nem";s:1:"m";s:5:"email";s:14:"asdasd@asd.com";s:4:"date";s:10:"2001-10-04";}
+a:5:{s:8:"username";s:6:"asdasd";s:6:"passwd";s:9:"asdasd123";s:3:"nem";s:1:"m";s:5:"email";s:14:"asdasd@asd.com";s:4:"date";s:0:"";}

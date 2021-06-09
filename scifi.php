@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Sci-fi</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/icon/icon1.png"/>
+</head>
+
+<?php
+  session_start();
+?>
+
+<body>
+
+<nav id="navigation">
+    <ul id="menu">
+        <li><a href="index.html">Főoldal</a></li>
+        <li><a id="menu-active" href="scifi.html">Sci-fi</a></li>
+        <li><a href="vigjatek.html">Vígjáték</a></li>
+        <li><a href="horror.html">Horror</a></li>
+        <li><a href="drama.html">Dráma</a></li>
+        <li><a href="forum.php">Fórum</a></li>
+    </ul>
+</nav>
+
+<header>
+    <img class="header_img" src="img/scifi/gargantua.png" usemap="#scifi-fejlec-map" alt="" />
+    <h1 class="oldal-cim">A 10 legjobb Sci-Fi film</h1>
+    <div class="kereso">
+        <label>Kereső: <input type="search" id="kereso" value="bármi"></label>
+    </div>
+</header>
+
+<!-- kliensoldali terkep -->
+<map name="scifi-fejlec-map">
+    <area shape="circle" coords="1480,200,370" alt="Gargantua" href="https://interstellarfilm.fandom.com/wiki/Gargantua">
+    <area shape="circle" coords="738,275,17" alt="Miller-bolygo" href="https://interstellarfilm.fandom.com/wiki/Miller_(planet)">
+    <area shape="circle" coords="562,256,50" alt="Endurance" href="https://interstellarfilm.fandom.com/wiki/Endurance">
+</map>
+
+<div class="filmbox">
+    <ul class="item-container highlighted">
+        <li class="filmkep" data-pjax="0">
+            <figure>
+                <img class="movie" src="img/scifi/csillagok_kozott.jpg" height="200" alt="">
+                <figcaption>Legjobb sci-fi film ever...</figcaption>
+            </figure>
+        </li>
+    </ul>
+</div>
+
+<div class="filmbox2">
+    <article class="movie">
+        <div class="row">
+            <span class="rank">10.</span>
+        </div>
+        <h2>
+            <a class="title">Csillagok között</a>
+        </h2>
+
+        <div class="movie-info">
+
+            <span class="summary">amerikai-angol, sci-fi, kalandfilm, 169 perc, 2011</span>
+            <span class="director">Rendező: Christopher Nolan</span>
+            <p class="description">A legendásan titkolózó rendező új sci-fijéről annyit már tudni, hogy csupa sztár működik közre benne és a csillagok között játszódik. Tudósok felfedeznek egy féreglyukat az űrben, és egy csapatnyi felfedező meg kalandor nekivág, hogy átlépje mindazokat a határokat, amelyeket addig áthághatatlannak hittünk: túl akarnak lépni téren és időn.</p>
+            <q>Az idő relatív: tud nyúlni meg összemenni, de nem tud visszafordulni.</q>
+        </div>
+    </article>
+</div>
+
+
+<div class="filmbox">
+    <ul class="item-container highlighted">
+        <li class="filmkep" data-pjax="0">
+            <img class="movie" src="img/drama/looper_a_jovo_gyilkosa.jpg" height="200" alt="">
+        </li>
+    </ul>
+</div>
+
+<div class="filmbox2">
+    <article class="movie">
+        <div class="row">
+            <span class="rank">9.</span>
+        </div>
+        <h2>
+            <a class="title">Looper - A jövő gyilkosa</a>
+        </h2>
+
+        <div class="movie-info">
+
+            <span class="summary">amerikai sci-fi, 118 perc, 2012</span>
+            <span class="director">Rendező: Rian Johnson</span>
+            <p class="description">2074-ben járunk, amikor az időutazás kézzelfogható valósággá vált, ám kizárólag törvénytelen módon, a feketepiacon lehet hozzájutni. A maffia sajátos módon használja ki a lehetőséget, ha meg akar szabadulni valakitől, harminc évvel visszaküldi az időben, ahol a jövőgyilkosnak nevezett "ooperek", azaz, bérgyilkosok várják. Joe is ilyen bérgyilkos, és remekül megél belőle. Ám egy napon a maffiairányítói úgy döntenek, hogy Joe-nak a saját jövőbeni énjét kell eltennie láb alól. A bérgyilkos azonban hibázik.</p>
+        </div>
+    </article>
+</div>
+
+<div class="filmbox">
+    <ul class="item-container highlighted">
+        <li class="filmkep" data-pjax="0">
+            <img class="movie" src="img/scifi/erkezes.jpg" height="200" alt="">
+        </li>
+    </ul>
+</div>
+
+<div class="filmbox2">
+    <article class="movie">
+        <div class="row">
+            <span class="rank">8.</span>
+        </div>
+        <h2>
+            <a class="title">Érkezés</a>
+        </h2>
+
+        <div class="movie-info">
+
+            <span class="summary">amerikai sci-fi, 116 perc, 2016</span>
+            <span class="director">Rendező: Denis Villeneuve</span>
+            <p class="description">Ha egyszer eljönnek hozzánk az idegenek, akkor nemcsak az lesz a kérdés, mik a szándékaik, hanem az is, miként fogunk velük kommunikálni – és hogyan. Ez a magát szinte minden műfajban kipróbáló kanadai Denis Villeneuve (Sicario – A bérgyilkos, Ellenség, Fogságban) új filmjének kiindulópontja és lényege. A nálunk is ismert Ted Chiang sci-fi író 1998-as Story of Your Life című novellájából készült mű főszereplője a nagyszerű Amy Adams, aki egy elismert nyelvészt alakít, akinek az előadásait mégis kevesen látogatják, és akit az amerikai katonaság kér fel, hogy közvetítsen köztük és az idegenek között.</p>
+        </div>
+    </article>
+</div>
+
+<div class="filmbox">
+    <ul class="item-container highlighted">
+        <li class="filmkep" data-pjax="0">
+            <img class="movie" src="img/scifi/eredet.jpg" height="200" alt="">
+        </li>
+    </ul>
+</div>
+
+<div class="filmbox2">
+    <article class="movie">
+        <div class="row">
+            <span class="rank">7.</span>
+        </div>
+        <h2>
+            <a class="title">Eredet</a>
+        </h2>
+
+        <div class="movie-info">
+
+            <span class="summary">amerikai-angol sci-fi, akciófilm, thriller, 142 perc, 2010</span>
+            <span class="director">Rendező: Christopher Nolan</span>
+            <p class="description">Dom Cobb (Leonardo DiCaprio) az ipari kémkedés legzseniálisabb bűnözője, aki mások álmait szerzi meg. Amikor áldozata az álomfázisba jut, ő belopózik az elméjükbe, és hozzáfér a legtitkosabb információkhoz is. Saito (Ken Watanabe) visszautasíthatatlan és életveszélyes ajánlattal keresi fel. Egy gondolatot kell elültetnie a haldokló milliárdos, Maurice Fisher (Pete Postlethwaite) fiának, Robert Fischernek (Cillian Murphy) tudatalattijába úgy, hogy a célszemély halálos védelmi rendszerrel felvértezett elméje ne kaphassa el. Legjobb emberét, Arthurt (Joseph Gordon-Lewitt) bízza meg a csapat összeállításával.</p>
+        </div>
+    </article>
+</div>
+
+<div class="filmbox">
+    <ul class="item-container highlighted">
+        <li class="filmkep" data-pjax="0">
+            <img class="movie" src="img/scifi/aliens.jpg" height="200" alt="">
+        </li>
+    </ul>
+</div>
+
+<div class="filmbox2">
+    <article class="movie">
+        <div class="row">
+            <span class="rank">6.</span>
+        </div>
+        <h2>
+            <a class="title">A bolygó neve: Halál (Aliens)</a>
+        </h2>
+
+        <div class="movie-info">
+
+            <span class="summary">amerikai-angol sci-fi, akciófilm, 137 perc, 1993</span>
+            <span class="director">Rendező: James Cameron</span>
+            <p class="description">57 évvel később egy mentőhajó talál rá Ripleyre (Sigourney Weaver), akinek az utolsó pillanatba sikerült megmenekülnie. Hazaérkezvén megtudja, hogy annak idején egy emberi kolóniát telepítettek arra a bolygóra, ahol megtámadta őket az ismeretlen szörnyeteg. Miután a földi kutatóbázis minden kapcsolatot elveszített az odatelepített emberekkel, Ripley-t egy sereg felfegyverzett harcos kíséretében visszaküldik a távoli bolygóra, hogy egyszer s mindenkorra leszámoljanak a félelmetes idegennel és megmentsék a túlélőket. De a landolás után nem sokkal elszabadul a pokol.</p>
+        </div>
+    </article>
+</div>
+
+<div class="filmbox">
+    <ul class="item-container highlighted">
+        <li class="filmkep" data-pjax="0">
+            <img class="movie" src="img/scifi/vissza_a_jovobe.jpg" height="200" alt="">
+        </li>
+    </ul>
+</div>
+
+<div class="filmbox2">
+    <article class="movie">
+        <div class="row">
+            <span class="rank">5.</span>
+        </div>
+        <h2>
+            <a class="title">Vissza a jövőbe</a>
+        </h2>
+
+        <div class="movie-info">
+
+            <span class="summary">amerikai kalandfilm, 111 perc, 1985</span>
+            <span class="director">Rendező: Robert Zemeckis</span>
+            <p class="description">"Marty McFly átlagos kamasznak látszik, de van egy őrült barátja, Doki, aki megépítette a plutónium meghajtású időgépet. Dokit váratlanul halálos támadás éri, s Marty is csak az új találmánnyal nyer egérutat. Arra azonban ő sem számít, hogy 1955-be utazik vissza, épp abba az időszakba, amikor szülei is a padot koptatják. A bajt csak fokozza, hogy majdani anyja Marty megérkezése óta ügyet sem vet majdani apjára, ami beláthatalan következményekkel járhat a jövőben. Ha életben akar maradni, el kell érnie, hogy szülei egymásba szeressenek és el kell távolítania az anyját molesztáló Biffet.</p>
+            <p class="preidézet">
+            <pre id="doki">
+                    <strong>Doki</strong>
+            1,21 gigawatt!
+            1,21 gigawatt!
+            Te magasságos!
+            </pre>
+
+        </div>
+    </article>
+</div>
+
+<div class="filmbox">
+    <ul class="item-container highlighted">
+        <li class="filmkep" data-pjax="0">
+            <img class="movie" src="img/scifi/terminator_2.jpg" height="200" alt="">
+        </li>
+    </ul>
+</div>
+
+<div class="filmbox2">
+    <article class="movie">
+        <div class="row">
+            <span class="rank">4.</span>
+        </div>
+        <h2>
+            <a class="title">Terminátor 2. - Az ítélet napja</a>
+        </h2>
+
+        <div class="movie-info">
+
+            <span class="summary">francia-amerikai sci-fi, akciófilm, 137 perc, 1991</span>
+            <span class="director">Rendező: James Cameron</span>
+            <p class="description">1997. augusztus 29-én kitört a harmadik világháború. Ennek a háborúnak 3 milliárd áldozata volt. A megmaradt emberiségnek hamarosan újabb iszonyattal kell szembenézzen: a gépek elleni háborúval. S most a Skynet gépei egy új Terminátort terveztek, aminek csak egyetlen feladata van: elpusztítani John Connor-t, a gépek elleni harc vezetőjét. S minthogy a tervezés időpontjában a tudomány már képes az időutazásra, a Terminátort visszaküldik az időben, hogy John-t még gyerekkorában pusztítsa el. Az emberek azonban szintén felkészültek az eseményre: ők is visszaküldtek egy Terminátort az időben, aminek az a feladata, hogy megvédje az ifjú Johnt. John Connor tehát tinédzser még, amikor életében megjelenik a két Terminátor, hogy végzetes összecsapásban számoljanak le egymással.</p>
+        </div>
+    </article>
+</div>
+
+<div class="filmbox">
+    <ul class="item-container highlighted">
+        <li class="filmkep" data-pjax="0">
+            <img class="movie" src="img/scifi/matrix.jpg" height="200" alt="">
+        </li>
+    </ul>
+</div>
+
+<div class="filmbox2">
+    <article class="movie">
+        <div class="row">
+            <span id="rank3" class="rank">3.</span>
+        </div>
+        <h2>
+            <a class="title">Mátrix</a>
+        </h2>
+
+        <div class="movie-info">
+
+            <span class="summary">amerikai sci-fi, 144 perc, 1999</span>
+            <span class="director">Rendező: Lilly Wachowski, Lana Wachowski</span>
+            <p class="description">Ahogy látjuk: Szürke, egyhangú világunk valóságos.
+                A valóság: Ez a világ csak átverés, egy nagy<wbr>szabású összeesküvés része, amelynek kiagyalói mesterséges intelligenciájú gépek. A hatalom az ő kezükben van és az emberek mind rabszolgák. Kemény!
+                Eláll a lélegzeted a trükköktől, elszáll az agyad az akciójelenetektől és megáll az eszed a történettől.
+                Keanu Reeves és Laurence Fishburne vezetik az emberiség felszabadításáért folytatott harcot a Mátrixban, a Wachowski fivérek (Fülledtség) korszakalkotó filmjében, amelyet nem lehet elégszer megnézni. A történet lebilincselő, a speciális effektusok páratlanul újszerűek - a film egyszerűen zseniális.</p>
+        </div>
+    </article>
+</div>
+
+<div class="filmbox">
+    <ul class="item-container highlighted">
+        <li class="filmkep" data-pjax="0">
+            <img class="movie" src="img/scifi/star_wars_a_birodalom_visszavag.jpg" height="200" alt="">
+        </li>
+    </ul>
+</div>
+
+<div class="filmbox2">
+    <article class="movie">
+        <div class="row">
+            <span id="rank2" class="rank">2.</span>
+        </div>
+        <h2>
+            <a class="title">Star Wars: A Birodalom visszavág</a>
+        </h2>
+
+        <div class="movie-info">
+
+            <span class="summary">amerikai sci-fi, kalandfilm, 124 perc, 1980</span>
+            <span class="director">Rendező: Irvin Kershner</span>
+            <p class="description">A felkelők maréknyi csapata a hó borította Hoth bolygó földalatti támaszpontján rejtőzködik. A szondák azonban felfedik a rejtekhelyet, és hamarosan birodalmi lépegetők lepik el a bolygót. Han Solo, Chewbacca és Leia a megbízhatatlan Lando Calrissian segítségét kérik. Nem is sejtik, hogy a birodalom rettegett ura, Darth Vader már várja őket nem kis meglepetést tartogatva Han számára. Luke Skywalker a Dagobah rendszerben az utolsó és legnagyobb Jedit, Yodát keresi, hogy felkészülhessen a végső összecsapásra az Erő sötét oldalával.</p>
+        </div>
+    </article>
+</div>
+
+<div class="filmbox">
+    <ul class="item-container highlighted">
+        <li class="filmkep" data-pjax="0">
+            <img class="movie" src="img/scifi/szarnyas_fejvadasz.jpg" height="200" alt="">
+        </li>
+    </ul>
+</div>
+
+<div class="filmbox2">
+    <article class="movie">
+        <div class="row">
+            <span id="rank1" class="rank">1.</span>
+        </div>
+        <h2>
+            <a class="title">Szárnyas fejvadász</a>
+        </h2>
+
+        <div class="movie-info">
+
+            <span class="summary">amerikai sci-fi, 114 perc, 1982</span>
+            <span class="director">Rendező: Ridley Scott</span>
+            <p class="description">2019-et írunk. Egy speciális osztaghoz tartozó Deckard éppen visszavonulni készül, amikor újabb feladatot kap. Öt replikáns eltérített egy űrhajót, hogy visszatérjenek a Földre és megkeressék megalkotójukat: az életüket szeretnék meghosszabbítani. Deckard feladata, hogy megakadályozza ezt, felkutassa és végezzen a replikánsokkal. A film az egyik legismertebb és legjobban sikerült sci-fi a film világában. Rengeteg kérdést feltesz: Mit jelent emberenek lenni? Mi az élet értelme? A válaszokat azonban a nézőre bízza.</p>
+        </div>
+    </article>
+</div>
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Főoldal</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/icon/icon1.png"/>
+</head>
+
+<?php
+  session_start();
+?>
+
+<body>
+<nav id="navigation">
+    <ul id="menu">
+        <li><a id="menu-active" href="index.html">Főoldal</a></li>
+        <li><a href="scifi.html">Sci-fi</a></li>
+        <li><a href="vigjatek.html">Vígjáték</a></li>
+        <li><a href="horror.html">Horror</a></li>
+        <li><a href="drama.html">Dráma</a></li>
+        <li><a href="forum.php">Fórum</a></li>
+    </ul>
+</nav>
+
+<header><h1 id="udv">Üdvözlünk!</h1></header>
+
+<aside id="tudtad-e">Tudtad-e?<br>Az EZPZ csapat tagjai rendszeres konzultációk és kutatások segítségével hozták létre a honlapjukat, amelyet épp most olvasol.</aside>
+
+
+<div id="index-div">
+    Ezt a honlapot <a id="webtervethallgato" href="webtervethallgato.php">Vozár Richárd és Boczek Bence </a> készítette. A feladott beadandó tartalmához az indulás első hetében szavazatokat gyűjtöttünk, majd annak elemzése alapján állítottuk össze négy filmműfaj 10-10 legjobb filmjeit. A készítők persze nem értettek egyet teljesen, ezért a Főoldal (ez az oldal) alján megtalálhatjátok az ő kedvenc filmjeiket az adott műfajokból. Az oldal tartalma a négy műfaj:
+    <br>-[Sci-fi, Vígjáték, Horror, Dráma]- TOP 10 filmjei, és egy Fórum, amin beszélgetni lehet a beregisztrált és bejelentkezett felhasználóknak. Reméljük elnyeri a tetszéseteket ez a szerintünk egész egyszerűen használható honlap.
+    <br>A szemfüleseknek még egy-két Easter Egg-et is elrejtettek a készítők. Jó szórakozást az oldal használatához!<br>
+</div>
+
+<div id="meno-iframe-div">
+
+    <iframe src="https://www.meteoblue.com/en/weather/widget/daily?geoloc=detect&days=3&tempunit=CELSIUS&windunit=KILOMETER_PER_HOUR&precipunit=MILLIMETER&coloured=monochrome&pictoicon=0&pictoicon=1&maxtemperature=0&maxtemperature=1&mintemperature=0&mintemperature=1&windspeed=0&windspeed=1&windgust=0&winddirection=0&winddirection=1&uv=0&humidity=0&humidity=1&precipitation=0&precipitation=1&precipitationprobability=0&precipitationprobability=1&spot=0&pressure=0&layout=light"></iframe>
+
+</div>
+
+<footer>
+<div id="index-footer">
+    <section>
+        <table id="index-table-svab">
+            <caption><u>Ricsi listája</u></caption>
+            <tr>
+                <th class="svab" id="filmcimsvab">Filmcím</th>
+                <th class="svab" id="evszamsvab">Készült (év)</th>
+                <th class="svab" id="rendezosvab">Rendező</th>
+                <th class="svab" id="imdbsvab">IMDB pont</th>
+            </tr>
+            <tr>
+                <td headers="filmcimsvab">Schindler listája</td>
+                <td headers="evszamsvab">1993</td>
+                <td headers="rendezosvab">Steven Spielberg</td>
+                <td headers="imdbsvab">8.9</td>
+            </tr>
+            <tr>
+                <td headers="filmcimsvab">Tükrök</td>
+                <td headers="evszamsvab">2008</td>
+                <td headers="rendezosvab">Alexandre Aja</td>
+                <td headers="imdbsvab">6.2</td>
+            </tr>
+            <tr>
+                <td headers="filmcimsvab">Csillagok között</td>
+                <td headers="evszamsvab">2014</td>
+                <td headers="rendezosvab">Christopher Nolan</td>
+                <td headers="imdbsvab">8.6</td>
+            </tr>
+            <tr>
+                <td headers="filmcimsvab">Brian élete</td>
+                <td headers="evszamsvab">1979</td>
+                <td headers="rendezosvab">Terry Jones</td>
+                <td headers="imdbsvab">8.1</td>
+            </tr>
+        </table>
+
+
+        <table id="index-table-krnnn">
+            <caption><u>Bence listája</u></caption>
+            <tr>
+                <th class="svab" id="filmcimkrn">Filmcím</th>
+                <th class="svab" id="evszamkrn">Készült (év)</th>
+                <th class="svab" id="rendezokrn">Rendező</th>
+                <th class="svab" id="imdbkrn">IMDB pont</th>
+            </tr>
+            <tr>
+                <td headers="filmcimkrn">vmi dráma film</td>
+                <td headers="evszamkrn">2020</td>
+                <td headers="rendezokrn">Valami Rendező</td>
+                <td headers="imdbkrn">8.5</td>
+            </tr>
+            <tr>
+                <td headers="filmcimkrn">vmi horror film</td>
+                <td headers="evszamkrn">2020</td>
+                <td headers="rendezokrn">Valami Rendező</td>
+                <td headers="imdbkrn">8.5</td>
+            </tr>
+            <tr>
+                <td headers="filmcimkrn">vmi sci-fi film</td>
+                <td headers="evszamkrn">2020</td>
+                <td headers="rendezokrn">Valami Rendező</td>
+                <td headers="imdbkrn">8.5</td>
+            </tr>
+            <tr>
+                <td headers="filmcimkrn">vmi vigjatek film</td>
+                <td headers="evszamkrn">2020</td>
+                <td headers="rendezokrn">Valami Rendező</td>
+                <td headers="imdbkrn">8.5</td>
+            </tr>
+        </table>
+    </section>
+</div>
+<div id="labjegyzet">
+Az oldal <b>1920x1080</b>-as kijelzőn nyújtja a legjobb élményt!
+</div>
+</footer>
+</body>
+</html>

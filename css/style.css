@@ -1,0 +1,429 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size:11px;
+    font-family: Verdana;
+    text-decoration: none;
+}
+
+body{
+    background-color: darkgrey;
+    background-attachment:fixed;
+    color: black;
+}
+
+#navigation{
+    width:1920px;
+    margin:0px auto;
+    position: fixed;
+}
+
+ul#menu{
+    list-style:none;
+}
+ul#menu li{
+    float: left;
+    background: black;
+    width:320px;
+
+    margin: 0px 0px 0px 0px;
+}
+
+ul#menu li a{
+    color: antiquewhite;
+    padding:13px;
+    display:block;
+    font-size:14px;
+}
+
+ul#menu li a:hover{
+    background: dimgray;
+    color:white;
+}
+
+/*aktiv oldal valtozzon +pont*/
+#menu-active {
+    color: deeppink !important;
+    background-color: #333 !important;
+}
+
+.header_img {
+    width: 100%;
+    height: 677px;
+    text-align:center;
+    margin-bottom: 10px;
+}
+.kereso{
+    position:absolute;
+    right:50px;
+}
+.keresoimg{
+    padding: 5px 5px 5px 5px;
+    margin-top: 5px;
+}
+
+
+.oldal-cim {
+    font-family: sans-serif;
+    font-size:50px;
+    color: honeydew !important;
+    text-align: center;
+    top: 100px;
+    left: 300px;
+}
+
+.filmbox {
+    float: left;
+    clear:left;
+    margin:0px 5px 0px 100px;
+}
+
+.filmbox ul{
+    list-style:none;
+}
+
+.filmbox2 {
+    overflow: hidden;
+    margin: 0px 850px 100px 20px;
+    /*margin-bottom:150px;*/
+}
+
+.rank {
+    font-size: 40px;
+    color: white;
+}
+
+.title {
+    font-size:19px;
+}
+
+.description{
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.director{
+    margin-left:5px;
+}
+.summary{
+    border-right: black;
+    text-decoration-line: underline;
+    font-style: italic;
+    font-size: 12px;
+}
+
+#rank1 { background-color: gold; }
+#rank2 { background-color: silver; }
+#rank3 { background-color: saddlebrown; }
+
+.movie {
+    height: 280px;
+}
+
+/* főoldal (index.html) */
+#index-footer {
+    position: absolute;
+    text-align: center;
+    padding: 25px;
+    background-color: darkslategray;
+    color: white;
+    margin-top:150px;
+    margin-left:15px;
+}
+
+th{
+    font-size: 16px;
+}
+
+td {
+    font-size: 20px;
+}
+
+#cap1, #cap2 {
+    font-weight: bold;
+    font-size: 17px;
+    padding-bottom: 5px;
+    padding-top: 15px;
+}
+
+tr:nth-child(even) {
+    background-color: cadetblue;
+}
+tr:nth-child(odd) {
+    background-color: darkolivegreen;
+}
+
+.svab {
+    background-color: darkslategray;
+}
+
+@keyframes teszt {
+    from {background-color: darkblue; }
+    to {background-color: darkgreen; }
+}
+
+#tudtad-e {
+    position: inherit;
+    width: 8%;
+    padding-left: 5px;
+    margin-right: 5px;
+    padding-top: 5px;
+    padding-right: 30px;
+    float: right;
+    font-size: 19px;
+    font-style: italic;
+    color: #cccccc;
+    background-color: cornsilk;
+    border: 10px solid #cccccc;
+    border-radius: 10px 30px 10px 30px;
+
+    animation-iteration-count: infinite;
+    animation-name: teszt;
+    animation-duration: 4s;
+    animation-direction: alternate;
+}
+
+iframe {
+    width: 162px;
+    height: 420px;
+    float: right;
+    position: static;
+    border:0;
+    margin-right:10px;
+}
+
+#udv {
+    padding-top: 5%;
+    font-size: 60px;
+}
+
+#index-div {
+    padding-top: 5%;
+    font-size: 30px;
+    column-count: 2;
+    column-gap: 100px;
+    column-rule: 1px solid azure;
+    padding-right: 40px;
+}
+
+#labjegyzet {
+    position: relative;
+    padding-top: 102px;
+    display: inline-block;
+    font-size: 14px;
+    color: white;
+}
+
+
+/* fórum */
+
+#forum{
+    color:red;
+    position: absolute;
+    left:200px;
+    top:420px;
+    border: 2px solid red;
+    padding:5px 5px 5px 5px;
+    border-radius: 20px;
+}
+
+u {
+    text-decoration: underline;
+}
+
+input, textarea{
+    margin-top:10px;
+    opacity:0.7;
+    padding:5px 5px 5px 5px;
+}
+
+.regisztracio-cim{
+    font-size:30px;
+    font-style:italic;
+}
+
+.vonal{
+    border-color:red;
+    padding:20px 7px 7px 20px;
+    background-image: url('../img/regisztracio/umathurman.jpg');
+    box-shadow:2px 5px red;
+    color:white;
+    margin-left: 5px;
+    border-radius: 20px;
+}
+.vonal2{
+    border-color:gray;
+    padding:20px 7px 7px 20px;
+    box-shadow:2px 5px gray;
+    background-image: url('../img/regisztracio/forrest.jpg');
+    border-radius: 20px;
+}
+.baloldal{
+    position: absolute;
+    top:15px;
+    left:200px;
+    z-index: 1;
+}
+.jobboldal{
+    position: absolute;
+    right:500px;
+    top:210px;
+    z-index: 2;
+}
+
+.split{
+    height: 2000px;
+    width: 500px;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+#warning{
+    display: inline-block;
+    margin-top:20px;
+    margin-left:10px;
+    outline: 5px dashed red;
+    line-height: 15px;
+}
+
+#regisztralt{
+    color:white;
+}
+
+#hang{
+    position:absolute;
+}
+
+#video{
+    position:absolute;
+    right:500px;
+}
+
+:disabled {
+    text-decoration: line-through red;
+}
+
+#cicagif {
+    float:right;
+    height: 50px;
+}
+@keyframes cica-anim {
+    from {float: right; height: 100px;}
+    to {float: bottom; left: 300px; height: 500px}
+}
+
+#cicagif:hover {
+    animation-name: cica-anim;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+
+}
+
+
+/*NYOMTATASI KEP*/
+@media print {
+    img, audio, video{
+        display: none;
+    }
+
+    h1 {
+        page-break-before: always;
+    }
+    h1, h2, h3, h4, h5 {
+        page-break-after: avoid;
+    }
+    table, figure {
+        page-break-inside: avoid;
+    }
+    div, p{
+        font-size: 8pt;
+    }
+}
+
+/* EASTER EGG */
+@keyframes conj {
+    from { transform: rotate(0deg); }
+    to {transform: rotate(20deg)}
+}
+
+#counjuring-kep:hover {
+    animation-iteration-count: infinite;
+    animation-name: conj;
+    animation-duration: 4s;
+    animation-direction: alternate;
+}
+
+/*pseudo*/
+footer::first-letter {
+    font-size:110%;
+    font-style:italic;
+    font-weight:bold;
+}
+
+.description::first-letter{
+    font-size:120%;
+    font-style:italic;
+}
+
+
+#regisztralt {
+    letter-spacing: 1px;
+}
+
+#doki{
+    font-size:8px;
+}
+
+#forumbox{
+    overflow: hidden;
+    margin: 0px 85px 100px 20px;
+}
+
+#udvforum{
+    top:20%;
+}
+
+.forumdoboz{
+    top:5px;
+	margin-left:18px;
+	width:379px;
+	background-color:Gainsboro;
+	color: Grey;
+	margin-top:10px;
+
+}
+.forumclass{
+	border:0;
+}
+
+#phpforum{
+	top:2px;
+	margin-left:18px;
+	font-size:14px;
+	color: Grey;
+	width:379px;
+	background-color:Gainsboro;
+	margin-top:5px;
+}
+#forumjobbra{
+	width:300px;
+	background-color:Gainsboro;
+	color: Grey;
+	height:95px;
+	margin-left:397px;
+	margin-bottom:-100px;
+}
+
+#forum_udvozlet{
+	margin-left:18px;
+	margin-top:5px;
+}
+
+#webtervethallgato{
+	font-size:20px;
+	color:green;
+}
+
